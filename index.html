@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+
+    <link rel="shortcut icon" href="Image/download (1).ico">
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- shape of mouse  -->
+    <!-- <div id="mouseCircle"></div> -->
+
+    <!-- start header  -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  h-100">
+            <div
+                class="container-fluid p-0 position-relative justify-content-between align-items-xl-start flex-xl-column flex-row h-100">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Image/logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler position-absolute d-xl-none d-block" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars text-white"></i></span>
+                </button>
+                <div class="collapse navbar-collapse d-xl-flex flex-column align-items-start justify-content-between"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-column d-xl-flex d-none mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white position-relative active" aria-current="page"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#blog">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <div class="header-social d-xl-flex d-none">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header  -->
+
+    <main class="main">
+        <!-- start home -->
+        <section id="home" class="home  position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-lg-7 position-relative z-2">
+                        <div class="home__title p-100">
+                            <h1 class="text-uppercase">
+                                my name
+                                <br>
+                                is lilon
+                                <span class="d-block">macwan...</span>
+                            </h1>
+                            <p class="txt">
+                                Web Designer <span>based in</span> USA
+                            </p>
+                            <a href="#" class="btn btn-1">Work with Me <i class="fa-solid fa-arrow-right ms-3"></i></a>
+
+                            <div class="home-contact d-flex flex-lg-row flex-column justify-content-between">
+                                <span class="mb-lg-0 mb-sm-3 mb-2">
+                                    <i class="fa-solid fa-mobile-screen"></i> +123 45 666 7788</span>
+                                <span><i class="fa-regular fa-envelope"></i> mccandesigner@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__img position-absolute z-1"> </div>
+                </div>
+                <div class="home__social position-absolute z-3">
+                    <ul class="home-list d-flex flex-column position-relative">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end home -->
+
+        <!-- start about  -->
+        <section id="about" class="about p-100">
+            <div class="container">
+                <div class="about__title special-title">
+                    <p>Nice to meet you!</p>
+                    <h2>WELCOME TO...</h2>
+                </div>
+                <div class="about__info">
+                    <div class="row">
+                        <div class="col-lg-5 mt-3">
+                            <div class="about-img mlg-0 mx-auto">
+                                <img src="Image/about-banner.png" alt="about-banner">
+                                <div class="img-caption text-center pt-4">
+                                    <h3 class="text-uppercase">lilon macwan</h3>
+                                    <p class="txt">
+                                        Web Designer <span>based in</span> USA
+                                    </p>
+                                    <a href="#" class="btn btn-1 text-capitalize">
+                                        download cv
+                                        <i class="fa-solid fa-download ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 ps-xl-5 mt-3">
+                            <p class="pb-3 m-0">Born in 2000, AB type living in USA. We provide on-screen design for
+                                websites and apps, as well as front-end implementation. We will continue to pursue a
+                                wide range ofexpressions and better code by pursuing our “likes”.</p>
+                            <div class="box1 pt-3">
+                                <div class="row gy-4">
+                                    <div class="col-sm-6">
+                                        <span> <i class="pe-3 fa-solid fa-mobile-screen"></i> +123 45 666 7788</span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <span><i class="pe-3 fa-regular fa-user"></i> Lilon Macwan</span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <span><i class="pe-3 fa-regular fa-envelope"></i> lilonesigner@gmail.com</span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <span><i class="pe-3 fa-regular fa-map"></i> California, USA</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2">
+                                <div class="row gy-md-0 gy-3">
+                                    <div class="col-md-6">
+                                        <div class="box2-count pb-3 d-flex align-items-center">
+                                            <h6>10+</h6>
+                                            <span class="text-capitalize">
+                                                years
+                                                <br>
+                                                experience
+                                            </span>
+                                        </div>
+                                        <div class="box-lead">
+                                            <p>
+                                                Hello there! My name is<span> Lilon Macwan</span>
+                                                . I am a web designer & developer, and Im very passionate and dedicated
+                                                to my work.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="box2-count pb-3 d-flex align-items-center">
+                                            <h6>50+</h6>
+                                            <span class="text-capitalize">
+                                                clints
+                                                <br>
+                                                worlwide
+                                            </span>
+                                        </div>
+                                        <div class="box-lead">
+                                            <p>
+                                                With 10+ years experience as a professional designer, I have acquired
+                                                the skills to make your project a success.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box3 d-flex align-items-center">
+                                <span><i class="fa-solid fa-quote-left"></i></span>
+                                <p class="box3-txt">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+                                    sed sit ultrices et sed metus sollicitudin.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about  -->
+
+        <!-- start experience -->
+        <section class="experience bg-color p-100">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-5">
+                        <div class="box-left">
+                            <div class="experience__title special-title">
+                                <p>Experience</p>
+                                <h2>My Experience</h2>
+                            </div>
+                            <p> Hello there! My name is Lilon Macwan. I am a web designer & developer, and Im very
+                                passionate and dedicated to my work.</p>
+                            <a href="#" class="btn btn-2">
+                                Download my resume
+                                <i class="fa-solid fa-download ms-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-xl-5">
+                        <ul class="list">
+                            <li>
+                                <div class="l-top d-flex justify-content-between">
+                                    <span>-2020-present</span>
+                                    <span>-UI/UX Lead</span>
+                                </div>
+                                <h5 class="text-uppercase">LEAD UI/UX DESIGNER</h5>
+                            </li>
+                            <li>
+                                <div class="l-top d-flex justify-content-between">
+                                    <span>-2017-2018</span>
+                                    <span>-UI/UX Designer</span>
+                                </div>
+                                <h5 class="text-uppercase">SENIOR UI/UX DESIGNER</h5>
+                            </li>
+                            <li>
+                                <div class="l-top d-flex justify-content-between">
+                                    <span>-2015-2017</span>
+                                    <span>-Jr.UI/UX DESIGNER</span>
+                                </div>
+                                <h5 class="text-uppercase">WEB DESIGN AND DEVELOPER</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end experience -->
+
+        <!-- start services -->
+        <section id="services" class="services bg-color2 p-100">
+            <div class="container">
+                <div class="services__title special-title">
+                    <p>my service</p>
+                    <h2>my specialties</h2>
+                </div>
+                <div class="services__info">
+                    <ul class="services-list">
+                        <li class="d-flex justify-content-between align-items-center position-relative ">
+                            <h4 class="text-uppercase m-0">web design</h4>
+                            <p class="m-0 d-lg-block d-none">Perspiciatis vero deleniti dolor assumenda voluptatum animi
+                            </p>
+                            <span class="position-absolute"></span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center position-relative ">
+                            <h4 class="text-uppercase m-0">ui/ux design</h4>
+                            <p class="m-0 d-lg-block d-none">You can customize a template or make your own from scratch,
+                                with an immersive library at
+                                your disposal. You can customize a template</p>
+                            <span class="position-absolute"></span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center position-relative ">
+                            <h4 class="text-uppercase m-0">mobile application</h4>
+                            <p class="m-0 d-lg-block d-none">Neque quo numquam consequuntur odio porro quidem soluta
+                                amet eveniet. Similique eum
+                                cupiditate repellat ipsa.</p>
+                            <span class="position-absolute"></span>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <h4 class="text-uppercase m-0">user research</h4>
+                            <p class="m-0 d-lg-block d-none">Sint, mollitia accusamus odit inventore, veritatis eos
+                                repellendus nihil voluptates
+                                voluptatibus adipisci</p>
+                            <span class="position-absolute"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end services -->
+
+        <!-- start projects -->
+        <section id="portfolio" class="projects p-100">
+            <div class="container">
+                <div class="projects__title special-title">
+                    <p>my work</p>
+                    <h2>recent project</h2>
+                </div>
+                <div class="projects__info position-relative">
+                    <div class="row gy-5">
+                        <div class="col-lg-6">
+                            <div id="projectsBox" class="box d-flex">
+                                <div class="box-img">
+                                    <img src="Image/services-1.jpg" alt="services-1">
+                                </div>
+                                <div class="box-caption position-relative">
+                                    <p>UX case study</p>
+                                    <h5 class="text-capitalize">processor research </h5>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="projectsBox" class="box d-flex">
+                                <div class="box-img">
+                                    <img src="Image/services-2.jpg" alt="services-1">
+                                </div>
+                                <div class="box-caption position-relative">
+                                    <p>UX case study</p>
+                                    <h5 class="text-capitalize">artifical research</h5>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="projectsBox" class="box d-flex">
+                                <div class="box-img">
+                                    <img src="Image/services-3.jpg" alt="services-1">
+                                </div>
+                                <div class="box-caption position-relative">
+                                    <p>UX case study</p>
+                                    <h5 class="text-capitalize">website research</h5>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="projectsBox" class="box d-flex flex-md-row flex-column">
+                                <div class="box-img">
+                                    <img src="Image/services-4.jpg" alt="services-1">
+                                </div>
+                                <div class="box-caption position-relative">
+                                    <p>UX case study</p>
+                                    <h5 class="text-capitalize">robotics research</h5>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlight" class="d-none">
+                <div class="img-parent position-relative">
+                    <i id="closeBtn" class="fa-solid fa-xmark"></i>
+                    <div id="overImgg" class="position-relative d-flex justify-content-between align-items-center">
+                        <img id="overImg" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end projects -->
+
+        <!-- start portfolio -->
+        <section class="portfolio bg-color p-100">
+            <div class="container">
+                <div class="projects__title special-title">
+                    <p>testimonial</p>
+                    <h2>what they says</h2>
+                </div>
+                <div class="portfolio__info position-relative">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Chief Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-2.jpg" alt="avatar-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 d-lg-block d-none">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Chief Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-1.jpg" alt="avatar-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Chief Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-1.jpg" alt="avatar-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 d-lg-block d-none">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Chief Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-2.jpg" alt="avatar-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-2.jpg" alt="avatar-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 d-lg-block d-none">
+                                        <div class="box">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-sm-7">
+                                                    <p>
+                                                        “ File storage made easy – including powerful features you won’t
+                                                        find anywhere else. Whether you’re.”
+                                                    </p>
+                                                    <div class="box-end">
+                                                        <h6 class="d-block text-capitalize">-ema watson</h6>
+                                                        <span class="text-capitalize">
+                                                            Chief Executive Officer,Brazil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-5">
+                                                    <div class="box-img">
+                                                        <img src="Image/avatar-1.jpg" alt="avatar-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__brands">
+                    <div class="row">
+                        <div class="col">
+                            <div class="brand-img">
+                                <img src="Image/brand-1.png" alt="brand">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="brand-img">
+                                <img src="Image/brand-2.png" alt="brand">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="brand-img">
+                                <img src="Image/brand-3.png" alt="brand">
+                            </div>
+                        </div>
+                        <div class="col d-sm-block d-none">
+                            <div class="brand-img">
+                                <img src="Image/brand-4.png" alt="brand">
+                            </div>
+                        </div>
+                        <div class="col-lg d-lg-block d-none">
+                            <div class="brand-img">
+                                <img src="Image/brand-1.png" alt="brand">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end portfolio -->
+
+        <!-- start blog -->
+        <section id="blog" class="blog bg-color2 p-100">
+            <div class="container">
+                <div class="blog__title special-title">
+                    <p>our blog</p>
+                    <h2>our latest update</h2>
+                </div>
+                <div class="blog__info">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="box">
+                                <div class="box-img overflow-hidden">
+                                    <img src="Image/blog-1.jpg" alt="blog">
+                                </div>
+                                <div class="box-caption">
+                                    <h6>12 July, 2022</h6>
+                                    <h2 class="m-0">12 unique example of portfolio websites</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="box">
+                                <div class="box-img overflow-hidden">
+                                    <img src="Image/blog-2.jpg" alt="blog">
+                                </div>
+                                <div class="box-caption">
+                                    <h6>12 July, 2022</h6>
+                                    <h2 class="m-0">12 unique example of portfolio websites</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="box">
+                                <div class="box-img overflow-hidden">
+                                    <img src="Image/blog-3.jpg" alt="blog">
+                                </div>
+                                <div class="box-caption">
+                                    <h6>12 July, 2022</h6>
+                                    <h2 class="m-0">12 unique example of portfolio websites</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="box">
+                                <div class="box-img overflow-hidden">
+                                    <img src="Image/blog-4.jpg" alt="blog">
+                                </div>
+                                <div class="box-caption">
+                                    <h6>12 July, 2022</h6>
+                                    <h2 class="m-0">12 unique example of portfolio websites</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlight" class="d-none">
+                <div class="img-parent position-relative">
+                    <i id="closeBtn" class="fa-solid fa-xmark"></i>
+                    <div id="overImgg" class="position-relative d-flex justify-content-between align-items-center">
+                        <img id="overImg" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end blog -->
+
+        <!-- start contact -->
+        <section id="contact" class="contact p-100">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-5">
+                        <div class="blog__title special-title">
+                            <p>our blog</p>
+                            <h2>our latest update</h2>
+                        </div>
+                        <ul class="contact-list">
+                            <li class="d-flex">
+                                <span class="bg-color d-flex justify-content-center align-items-center">
+                                    <i class="fa-regular fa-message"></i>
+                                </span>
+                                <div class="caption">
+                                    <h6>Chat to us</h6>
+                                    <p>
+                                        Our friendly team is there to help.
+                                        <span>
+                                            <a href="#" class="text-white">info@domainname.com</a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <span class="bg-color d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-stopwatch-20"></i>
+                                </span>
+                                <div class="caption">
+                                    <h6>Vist to us</h6>
+                                    <p>
+                                        Come say hello at ur office HQ. Warnwe Park Streetperrine, FL 33157 New York
+                                        City
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <span class="bg-color d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </span>
+                                <div class="caption">
+                                    <h6>Chat to us</h6>
+                                    <p>Mon-Fri from 8am to 5pm. +01 (555) 000-0000</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27626.687055512895!2d31.242370820133356!3d30.05590528999007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840e059d98225%3A0x91cb6f582e8b215c!2z2KfZhNiy2YXYp9mE2YPYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1697245740776!5m2!1sar!2seg"
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-xl-5 bg-color">
+                        <div class="contact-info">
+                            <div class="contact-head">
+                                <h4>Got Ideas? We have got the skills. Lets team up.</h4>
+                                <p>Tell us more about yourself and what you are got in mind.</p>
+                            </div>
+                            <form action="#">
+                                <div class="row gy-4">
+                                    <div class="col-md-6">
+                                        <label for="uName" class="text-uppercase">
+                                            first name
+                                        </label>
+                                        <input type="text" id="uName" class="form-control bg-transparent"
+                                            placeholder="Name *">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="uMail" class="text-uppercase">
+                                            your mail
+                                        </label>
+                                        <input type="text" id="uMail" class="form-control bg-transparent"
+                                            placeholder="Email *">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="text-uppercase">
+                                            subject
+                                        </label>
+                                        <input type="text" id="subject" class="form-control bg-transparent"
+                                            placeholder="Subject *">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="text-uppercase">
+                                            your message
+                                        </label>
+                                        <textarea id="message" cols="30" rows="10" class="form-control bg-transparent"
+                                            placeholder="Your message"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-2 w-100">sent message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+    </main>
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info d-flex justify-content-between align-items-center">
+                <div class="l-box">
+                    <div class="box-inner d-flex align-items-center">
+                        <div class="box-img">
+                            <img src="Image/about-banner.png" class="rounded-circle" alt="banner">
+                        </div>
+                        <h6 class="text-capitalize">lilon williamson</h6>
+                    </div>
+                </div>
+                <div class="r-box">
+                    <p class="copyRight">
+                        © 2023 copyright all right reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

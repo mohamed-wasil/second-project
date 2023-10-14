@@ -1,0 +1,33 @@
+#overlight {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: saturate(180%) blur(8px);
+    z-index: 99999999;
+}
+
+#overlight .img-parent {
+    width: 60%;
+    padding: 30px;
+    background-color: var(--third-color);
+    border: 4px solid rgba(255, 255, 255, .1);
+}
+
+#overlight i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    #overlight .img-parent {
+        width: 85%;
+    }
+}

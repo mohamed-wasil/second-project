@@ -1,0 +1,244 @@
+@media screen and (min-width: 1201px) {
+    .main {
+        padding-left: 285px;
+    }
+
+    .footer {
+        padding-left: 285px;
+    }
+
+    section:not(:first-child) {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+
+    /* start projects */
+    .projects .projects__info .box-caption {
+        padding-bottom: 40px;
+    }
+
+    /* end projects */
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* start home  */
+    .home .home__title h1 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .txt {
+        font-weight: 700;
+    }
+
+    .txt span {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    /* end home  */
+    
+    /* start experience */
+    .experience .box-left>p {
+        max-width: 100%;
+    }
+
+    /* end experience */
+
+    /* start services */
+    .services .services-list li h4 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    /* end services */
+
+    /* start projects */
+    .projects .projects__info .box-caption {
+        padding-bottom: 0px;
+    }
+
+    /* end projects */
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    section:not(:first-child) {
+        padding: 60px 0;
+    }
+
+    /* start home */
+    .home .home__img {
+        width: 100%;
+    }
+
+    .home .home__title h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .txt {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+
+    .txt span {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .home .home__title .home-contact span {
+        font-size: 16px;
+    }
+
+    /* end home */
+
+    /* start about  */
+    .about .about__info .box3 span {
+        font-size: 40px;
+    }
+
+    .about .about__info .box3 p {
+        font-size: 18px;
+    }
+
+    .about .about__info .img-caption h3 {
+        font-size: 35px;
+    }
+
+    .about .about__info .img-caption .txt {
+        font-size: 20px;
+    }
+
+    .about .about__info .box1 span {
+        font-size: 16px;
+    }
+
+    /* end about  */
+
+    /* start experience  */
+    .experience .list span {
+        font-size: 14px;
+    }
+
+    .experience .list h5 {
+        font-size: 32px;
+    }
+
+    /* end experience  */
+
+    /* start services */
+    .services .services__title {
+        margin-bottom: 35px;
+    }
+
+    .services .services-list li h4 {
+        font-size: 22px;
+    }
+
+    /* end services */
+
+    /* start projects */
+    .projects .projects__info .box {
+        flex-direction: column;
+    }
+
+    .projects .projects__info .box-img {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .projects .projects__info .box-caption {
+        padding: 20px 0 50px;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .projects .projects__info .box-caption h5 {
+        font-size: 24px;
+    }
+
+    /* end projects */
+
+    /* start portfolio */
+    .portfolio .portfolio__info .box {
+        padding-bottom: 10px;
+    }
+
+    .portfolio .portfolio__info .box p {
+        font-size: 24px;
+    }
+
+    /* start portfolio */
+
+    /* start contact  */
+    .contact .contact-head h4 {
+        font-size: 32px;
+    }
+
+    .contact .contact-info {
+        padding: 25px;
+    }
+
+    /* end contact  */
+}
+
+
+@media screen and (max-width: 426px) {
+    .home .home__social {
+        display: none;
+    }
+
+    /* start experience  */
+    .experience .list h5 {
+        font-size: 22px;
+    }
+
+    /* end experience  */
+
+}
+
+@media screen and (max-width: 291px) {
+
+    /* start home */
+    .home .home__title h1 {
+        font-size: 30px;
+    }
+
+    .txt,
+    .txt span {
+        font-size: 16px;
+
+    }
+
+    /* end home */
+}
+
+@media screen and (max-width: 200px) {
+
+    /* start home */
+    .home .home__title h1 {
+        font-size: 25px;
+    }
+
+    .txt,
+    .txt span {
+        font-size: 16px;
+
+    }
+
+    .home .btn-1 {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    /* end home */
+}

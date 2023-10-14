@@ -1,0 +1,87 @@
+/* start face */
+@import url(font.css);
+/* end face */
+
+/* start variable  */
+:root {
+    --main-color: #af2676;
+    --second-color: #441b45;
+    --third-color: #0d0b1c;
+    --section-bg-color: #100e24;
+    --main-transtion: all .3s;
+}
+
+/* end variable  */
+
+/* start basics */
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: var(--main-transtion);
+}
+
+
+body {
+    font-family: plex;
+    background-color: var(--section-bg-color);
+    color: #fff;
+}
+h1 , h2, h3, h4, h5, h6{
+    font-family: "plex bold";
+
+}
+
+.txt {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    /* letter-spacing: 1.5px; */
+}
+
+.txt span {
+    font-weight: 300;
+}
+
+.bg-color {
+    background: linear-gradient(270.16deg, var(--second-color) 5.74%, var(--main-color) 92.05%);
+}
+
+.bg-color2{
+    background: linear-gradient(177deg,#100E24 0%,#030211 190%);
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.px-15 {
+    padding: 0 15px;
+}

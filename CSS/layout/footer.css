@@ -1,0 +1,22 @@
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+}
+
+.footer .l-box .box-img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.footer .l-box .box-inner h6 {
+    padding-inline-start: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.footer .copyRight {
+    font-size: 12px;
+    margin: 0;
+}
